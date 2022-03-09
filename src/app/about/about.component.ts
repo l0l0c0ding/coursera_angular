@@ -22,7 +22,7 @@ export class AboutComponent implements OnInit {
 
   ngOnInit() {
        this.leaderservice.getLeaders()
-      .then(leaders => this.leaders = leaders);
+      .subscribe(leaders => this.leaders = leaders);
   }
 
   goBack(): void {
