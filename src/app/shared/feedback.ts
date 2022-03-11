@@ -1,6 +1,7 @@
 
 
 export const ContactType = ['None', 'Tel', 'Email'];
+
 export class Feedback {
     firstname: string;
     lastname: string;
